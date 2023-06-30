@@ -5,7 +5,7 @@ function App() {
 
   // Fetching message from backend on mount
   useEffect(() => {
-    fetch("https://registration-wmap.onrender.com")
+    fetch("https://backend-lypr.onrender.com")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   }, []);
